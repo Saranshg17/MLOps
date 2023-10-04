@@ -10,8 +10,8 @@ def normalization(X):
     return X
 
 #Accessing data
-train=pd.read_excel('train.xlsx')
-test=pd.read_excel('test.xlsx')
+train=pd.read_excel('q2train.xlsx')
+test=pd.read_excel('q2test.xlsx')
 aptitude=train['Aptitude']
 verbal=train['Verbal']
 Label=train['Label']
