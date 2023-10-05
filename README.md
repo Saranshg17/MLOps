@@ -1,4 +1,5 @@
 # Livesitter_MLOps
+-> MLops_assign.pdf - Describing the problem statement
 -> q2train.xlsx - Data for students for 2 different tests(one containing aptitude and other verbal) labelled pass or fail.
 -> q2test.xlsx - Contains dataset for testing the results with scores for similar tests without label for predicting whether student passed or not.
 -> logistic_reg.py - Contains python script which read q2train.xlsx file and plot scatter plot for visualization and normalize the datapoints.
