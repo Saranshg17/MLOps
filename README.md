@@ -6,4 +6,5 @@
 Afterwards, Train a logistic regression model using normalized dataset then plot a decision boundary with scattered points collour labelled according to pass-fail situation and then read datapoints from q2test.xlsx and predict output(pass/fail) using decision boundary obtained and write this output in output file.
 -> Dockerfile -  to containerize logistic_regr.py q2test.xlsx and q2train.xlsx alongwith all the python libraries needed to run logistic_reg.py(numpy, pandas,matplotlib, python math module and openpyxl)
 This Dockerfile is used using python:3.11 as base image
+-> Docker image is public and can be accessed using saranshg17/python-reg
 -> I have created docker image using macbook but macbook ami for ec2 instance is paid I tried with both amazon linux as well as ubuntu but for those platform didn't match for hosting and image and hence can't be run I have uploaded my docker image from dockerhub which was pushed earlier.
